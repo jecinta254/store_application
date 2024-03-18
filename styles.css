@@ -139,3 +139,107 @@ button.normal {
   bottom: -4px;
   left: 20px;
 }
+/*
+* products.html
+*/
+/*
+* container
+*/
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container h2 {
+  color: rgb(89, 89, 241);
+}
+.product form{
+  display: flex;
+  padding: 100px 100px;
+  flex-direction: row;
+  padding: 15px 40px 0px 40px;
+  justify-content: space-between;
+}
+
+.product form input {
+  padding: 10px 50px;
+  border-color: rgb(240, 13, 164);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+}
+.buttons .c {
+  color: rgb(4, 4, 5);
+  background-color: rgb(23, 146, 23);
+  font-size: 15px;
+  border-radius: 4%;
+  border: rgb(3, 3, 3);
+  font-weight: 600;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.buttons button:hover{
+  background-color: rgb(224, 11, 231);
+}
+.buttons .u {
+  color: rgb(4, 4, 5);
+  background-color: rgb(69, 50, 240);
+  font-size: 15px;
+  border-radius: 4%;
+  border: rgb(7, 6, 6);
+  font-weight: 600;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.buttons .r {
+  color: rgb(4, 4, 5);
+  background-color: rgb(247, 231, 12);
+  font-size: 15px;
+  border-radius: 4%;
+  border: rgb(7, 7, 6);
+  font-weight: 600;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.buttons .d {
+  color: rgb(4, 4, 5);
+  background-color: rgb(236, 18, 18);
+  font-size: 15px;
+  border-radius: 4%;
+  border: rgb(3, 3, 3);
+  font-weight: 600;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/*
+* table
+*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid rgb(98, 151, 231);
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(243, 245, 250);
+}
+table .edit {
+  color: rgb(4, 143, 4);
+  cursor: pointer;
+}
+table .delete {
+  color: rgb(243, 5, 25);
+  cursor: pointer;
+}
